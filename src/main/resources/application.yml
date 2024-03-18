@@ -2,3 +2,12 @@ logging:
   level:
     root: info
 
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/fastsns
+    username: root
+    password: azzu8380!!
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
